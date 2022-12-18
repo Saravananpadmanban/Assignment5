@@ -1,0 +1,155 @@
+
+
+body{
+    margin: auto;
+    padding: 0;
+   
+}
+div.wrapper-div{
+    width: 80%;
+    margin: auto;  
+   border-color: rgba(166, 143, 143, 0.419); 
+}
+header{
+    background-color: lightgray;
+}
+a{
+    text-decoration: none;
+}
+.idx{
+    width: 100%;
+    height: 50px;
+    
+    padding-top: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+/* .idx:hover{
+   background-color: yellow;
+   
+} */
+div.ispace{
+    text-align: center;
+    padding: 10px;
+    /* position: relative; */
+}
+.hdr1{
+   font-size: 140px;
+   color: rgb(158, 243, 73);
+   font-family: ITALIC;
+}
+.hdr2{
+   font-size: 100px;
+   font-family: ITALIC;
+   color: rgb(74, 68, 68);
+
+   /* width: 100%; */
+   
+}
+.imgsec{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+div.slider_container{
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+}
+.sofaimg{
+    display: flex;
+    width: 100%;
+}
+/* .sofaimg img{
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+} */
+/* input{
+    display: none;
+
+} */
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots input{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+/* #slidedot1:checked .slide1{
+    margin-left: 0;
+
+}
+#slidedot2:checked .slide2{
+    margin-left: -100%;
+
+}
+#slidedot3:checked .slide3{
+    margin-left: -200%;
+
+}
+#slidedot4:checked  .slide4{
+    margin-left: -300%;
+
+} */
+/* .sec2tbl{
+    border: 2px greenyellow;
+} */
+
+.lrmhd{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    background-color: greenyellow;
+}
+.lrmp{
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    background-color: grey;
+}
+.sec3lrm{
+    font-size:30px;
+    padding-bottom: 0;
+
+}
+li{
+    padding: 10px;
+}
+.readmorebutton{
+    background-color: rgb(74, 82, 77);
+    border: 4px;
+    border-radius: 2px;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.bright{
+    /* padding:40px; */
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    background-color: lawngreen;
+}
+.brightpara{
+    background-color: grey;
+    color: white;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    padding: 60px;
+    
+}

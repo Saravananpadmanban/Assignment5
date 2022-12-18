@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.layer1{
+    background-color: rgb(200, 195, 195);
+    padding-bottom: 20px;
+}
+.layer1 img{
+    position: relative;
+    padding-top: 20px;
+    width: 200px;
+    height: 210px;
+    
+}    
+.p1{
+    font-size: 20px;
+    
+}
+.emailbtn{
+    height: 40px;
+    width: 80px;
+    padding: 0;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(42, 170, 255);
+    cursor: pointer;
+}
+.pac{
+    width: 140spx;
+    height: 50px;
+    
+    text-align: center;
+    font-size: 15px;
+    color:white;
+    background-color: rgb(82, 77, 77);
+}
+.layer3{
+    background-color: rgb(200, 195, 195);
+    padding: 50px; 
+}
+.pd{
+    background-color: white;
+    padding: 20px;
+}
+.ed{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+ul.myul{
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+}
+.cpy{
+    padding: 50px;
+    text-align: center;
+}
